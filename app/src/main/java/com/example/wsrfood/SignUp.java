@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class SignUp extends AppCompatActivity {
 
     @Override
@@ -19,4 +21,10 @@ public class SignUp extends AppCompatActivity {
         finish();
     }
 
+    public void onClick(View view) {
+        Intent i = new Intent(this,MainActivity.class);
+        Snackbar.make(view, "Complete", Snackbar.LENGTH_LONG)
+                .setAction("Error", null).show();
+
+}
 }
