@@ -18,8 +18,9 @@ public class LaunchScreen extends AppCompatActivity {
     protected void onCreate(Bundle getInstanceState) {
         super.onCreate(getInstanceState);
         setContentView(R.layout.activity_launch_screen);
-        Intent i = new Intent(this,OnBoardingScreen.class);
-        startActivity(i);
+
+        Intent intent = new Intent(this,OnBoardingScreen.class);
+        startActivity(intent);
         finish();
 
     }
