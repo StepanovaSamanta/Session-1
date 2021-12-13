@@ -14,7 +14,7 @@
         <entry key="app/src/main/res/layout/activity_sign_in2.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.375" />
         <entry key="app/src/main/res/layout/fragment_fullscreen.xml" value="0.4796195652173913" />
-        <entry key="app/src/main/res/layout/fragment_qwerty.xml" value="0.625" />
+        <entry key="app/src/main/res/layout/fragment_qwerty.xml" value="0.25" />
       </map>
     </option>
   </component>

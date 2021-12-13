@@ -23,6 +23,7 @@ public class SignUp extends AppCompatActivity {
 
     public void onClick(View view) {
         Intent i = new Intent(this,MainActivity.class);
+        startActivity(i);
         Snackbar.make(view, "Complete", Snackbar.LENGTH_LONG)
                 .setAction("Error", null).show();
 
