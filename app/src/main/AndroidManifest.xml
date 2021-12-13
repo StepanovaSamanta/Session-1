@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/img"
+        android:icon="@drawable/img_1"
         android:label="WSR Food"
         android:roundIcon="@drawable/img_11"
         android:supportsRtl="true"

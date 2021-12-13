@@ -83,6 +83,7 @@
         app:layout_anchor="@+id/view_pager"
         app:layout_anchorGravity="end|bottom"
         app:srcCompat="@android:drawable/ic_dialog_email"
-        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+        tools:visibility="gone" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
